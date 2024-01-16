@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+
+    <title>IT Solution Centre</title>
+</head>
+
+<body>
+    <div class="top-head">
+        <!--Top header-->
+        <top>
+            <div class="top-button">
+                <a href="mailto:lokmasazali@gmail.com">
+                <span class="material-icons-sharp">
+                    mail
+                    </span>
+                </a>
+                <a href="#"  id="phoneIcon">
+                <span class="material-icons-sharp">
+                    phone
+                    </span>
+                </a>
+                <a href="#" id="qrIcon">
+                <span class="material-icons-sharp">
+                    qr_code
+                    </span>
+                </a>
+            </div>
+        </top>
+        <!--End top header-->
+    </div>
+    <div class="container">
+        <!--Side bar-->
+        <aside>
+            <div class="toogle">
+                <div class="logo">
+                    <img src="logo.png"id="logopic">
+                    <h2>IT<span class="danger"> 
+                        Solution   
+                    </span></h2>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="homepage.html">
+                    <span class="material-icons-sharp">
+                        home
+                        </span>
+                        <h3>Home</h3>   
+                </a>
+                <a href="services.html">
+                    <span class="material-icons-sharp">
+                        build
+                        </span>
+                        <h3>Services</h3>
+                </a>
+                <a href="article.html">
+                    <span class="material-icons-sharp">
+                        article
+                        </span>
+                        <h3>Article</h3>
+                </a>
+                <a href="resources.html"class="active">
+                    <span class="material-icons-sharp">
+                        source
+                        </span>
+                        <h3>Resources</h3>
+                </a>
+                <a href="aboutUs.html">
+                    <span class="material-icons-sharp">
+                        account_circle
+                        </span>
+                        <h3>About Us</h3>
+                </a>
+            </div>
+
+        </aside>
+        <!--End sidebar-->  
+        <!--Main content-->
+        <main>
+            <!--Web title section-->
+            <div class="title">
+                <div class="title-banner">
+                    <img src="bannerHOME.png"alt="banner">
+                    <h2>IT TECH WEB SUPPORTER</h2>
+                </div>
+               
+            </div>
+            <!--content-->
+            <div class="resources-type">
+                <span class="material-symbols-outlined ">
+                    <a href="resources.html">videocam</a>
+                    </span>
+                <span class="material-symbols-outlined active">
+                    <a href="resources-manual.html">book_3</a>
+                    </span>
+            </div>
+            <br><br><br>
+            <div class="product">
+
+                <div class="manualbook">
+                    <div class="detail">
+                        <div class="info">
+                            <h2>BIOS Configuration Guide (PDF)</h2><br>
+                            <p>Explore the comprehensive BIOS Configuration Guide to understand and
+                                optimize the settings of your system's Basic Input/Output System.
+                                Learn how to customize and enhance the performance of your hardware
+                                through step-by-step instructions.</p><br>
+                            <a href="bios_ configuration_guide.pdf" target="_blank" id="link" download>Download BIOS
+                                Configuration Guide (PDF)</a>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="info">
+                            <h2>Windows 11 Guidelines (PDF)</h2><br>
+                            <p>Dive into the Windows 11 Guide, your go-to resource for navigating
+                                the latest features and functionalities of Microsoft's cutting-edge
+                                operating system. Uncover tips, tricks, and shortcuts to make the
+                                most out of your Windows 11 experience.</p><br>
+                            <a href="windows_11_guide.pdf" target="_blank" id="link" download>Download Windows 11 Guide
+                                (PDF)</a>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="info">
+                            <h2>Windows 10 Installation Guide (PDF)</h2><br>
+                            <p>Follow the Windows 10 Install Guide for a seamless setup and
+                                installation process. This step-by-step guide covers everything
+                                from system requirements to post-installation configurations,
+                                ensuring a smooth transition to the powerful Windows 10 platform.</p>
+                            <a href="windows10_install_guide.pdf" target="_blank" id="link" download>Download Windows 10
+                                Installation Guide (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!--end-content-->
+            
+            <div class="product">
+                <div class="item">
+                    <img src="bannerpc.png">  
+                </div>
+            </div>
+            
+        </main>
+        <!--end of main-->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                 <div class="dark-mode">
+                        <span class="material-icons-sharp active">
+                            light_mode
+                        </span>  
+                        <span class="material-icons-sharp ">
+                            dark_mode
+                        </span>   
+                    </div>
+
+                    <div class="profile">
+                         <div class="info">
+                            <p>Hello, <b>Welcome</b></p>
+                            <small class="text-muted">Viewer</small>
+                        </div>
+                        <div class="profile-photo">
+                            <img src="empty-dp.jpg">
+                        </div>
+
+                    </div>
+                
+            </div>
+            <!--end nav-->
+            <div class="search">
+                <form onsubmit="event.preventDefault();" role="search">
+                    <label for="search">Search for stuff</label>
+                    <input id="search" type="search" placeholder="Search...">
+                    <button class="s-button" type="submit" id="1">Go</button>    
+                  </form>
+            </div>
+
+           
+          
+            
+
+        </div>
+
+         
+    </div>
+    <footer>
+        <h2> Copyright &#169; 2023 IT Solution Centre | All Rights Reserved	</h2>
+     </footer>
+    
+
+
+
+    <script src=""></script>
+    <script src="index.js"></script>
+    <script src="copyPhoneNumber.js"></script>
+    <script src="qrCode.js"></script>
+</body>
+
+</html>
